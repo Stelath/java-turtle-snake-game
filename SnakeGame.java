@@ -44,7 +44,7 @@ public class SnakeGame
     public static void main(String[] args)
     {
         int canvasSizePX = 512, canvasSizeU = 16; // canvasSizePX has to be a multiple of canvasSizeU
-        double speed = 0.5; // How long it takes for the snake to move one unit in seconds
+        double speed = 0.20; // How long it takes for the snake to move one unit in seconds
         playing = false; // Kepeps track of if the person is currently playing
         boolean endScreen = false;
         boolean end = false;
